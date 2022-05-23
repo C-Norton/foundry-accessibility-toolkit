@@ -1,0 +1,18 @@
+{
+  "name": "foundry-accessibility-toolkit",
+  "title": "Foundry Accessibility Toolkit",
+  "description": "A module intended to allow for individualized scaling of UI elements by users connected to a foundry server, with a specific focus on helping low vision users be able to make the platform usable for their specific needs. This module is presently made with dnd 5e in mind, though is ostensibly system agnostic.",
+  "author": "CNorton",
+  "version": "0.0.1",
+  "minimumCoreVersion": "9",
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ]
+}
