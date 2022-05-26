@@ -1,1 +1,1 @@
-moduleName = "Foundry Accessibility Settings Toolkit"
+const moduleName = "Foundry Accessibility Settings Toolkit";

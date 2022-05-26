@@ -1,6 +1,6 @@
 console.log("Foundry Accessibility Toolkit Is indeed loading settings.js")
-settingsTargetSize = "Target Indicator Size";
-settingblock = {
+const settingsTargetSize = "Target Indicator Size";
+const settingblock = {
     name: "Targeting Indicator Size",
     hint: "Adjusts the size of the dot applied to tokens when OTHER players target them",
     scope: "client",
