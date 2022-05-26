@@ -1,0 +1,1 @@
+moduleName = "Foundry Accessibility Settings Toolkit"

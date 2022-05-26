@@ -7,8 +7,9 @@
   "type": "module",
   "minimumCoreVersion": "9",
   "esmodules": [
-    "scripts/main.js"
+    "scripts/settings.js"
   ],
+  "scripts": ["scripts/globalconstants.js"],
   "languages": [
     {
       "lang": "en",
