@@ -1,4 +1,4 @@
-console.log("Foundry Accessibility Toolkit Is indeed loading settings.js")
+console.log("Foundry Accessibility Toolkit Is indeed loading settings.js again")
 const settingsTargetSize = "Target Indicator Size";
 const settingblock = {
     name: "Targeting Indicator Size",
@@ -14,4 +14,5 @@ const settingblock = {
     default: 20,
     onChange: value => console.log(value)
 };
-game.settings.register(moduleName, settingsTargetSize, settingblock);
+game.settings = new ClientSettings();
+game.settings.registerMenu(moduleName, settingsTargetSize, settingblock);
