@@ -9,7 +9,7 @@
   "esmodules": [
     "scripts/settings.js"
   ],
-  "scripts": ["scripts/globalconstants.js"],
+  "scripts": ["scripts/globalconstants.js", "scripts/MenuElements.js" , "scripts/settings.js"],
   "languages": [
     {
       "lang": "en",
