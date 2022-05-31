@@ -1,6 +1,6 @@
 console.log("Foundry Accessibility Toolkit Is indeed loading settings.js again")
 const settingsTargetSize = "Target Indicator Size";
-const settingblock = {
+settingblock = {
     name: "Targeting Indicator Size",
     hint: "Adjusts the size of the dot applied to tokens when OTHER players target them",
     scope: "client",
@@ -14,7 +14,7 @@ const settingblock = {
     default: 20,
     onChange: value => {console.log(value)}
 };
-game.settings = new ClientSettings();
+
 game.settings.registerMenu("foundryaccessibilitytoolkit", "targetsize", {
     name: "Register a Module Setting with a Range slider",
     hint: "A description of the registered setting and its behavior.",
