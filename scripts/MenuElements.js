@@ -1,1 +1,0 @@
-class MenuElements extends FormApplication{}
