@@ -1,4 +1,6 @@
 /* consts block */
+
+// TARGET SIZE DATA
 const targetSizeMin = 10;
 const targetSizeMax = 100;
 const targetSizeStep = 10;
