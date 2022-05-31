@@ -1,3 +1,12 @@
+/* consts block */
+const targetSizeMin = 10;
+const targetSizeMax = 100;
+const targetSizeStep = 10;
+const defaultTargetSize = 20;
+
+
+//todo: there's a lot of cleanup for legibility that can and should be done here. I should take another pass as I add
+//more settings to figure out a more scaleable solution here.
 class FoundryAccessibilityToolkitData {
     static SETTINGS = {
         INJECT_BUTTON: 'inject-button'
@@ -5,18 +14,18 @@ class FoundryAccessibilityToolkitData {
 
     static initialize() {
         this.FoundryAccessibilityToolkitData = new FoundryAccessibilityToolkitData();
-        game.settings.register("foundryaccessibilitytoolkit", "targetsize", {
-            name: "Targeting Indicator Size",
-            hint: "Adjusts the size of the dot applied to tokens when OTHER players target them",
+        game.settings.register(moduleSlug, targetSizeSlug, {
+            name: targetSizeName,
+            hint: targetSizeHint,
             scope: "client",
             config: true,
             type: Number,
             range: {
-                min: 10,
-                max: 100,
-                step: 10
+                min: targetSizeMin,
+                max: targetSizeMax,
+                step: targetSizeStep
             },
-            default: 20,
+            default: defaultTargetSize,
             onChange: value => {
                 console.log(value)
             }
