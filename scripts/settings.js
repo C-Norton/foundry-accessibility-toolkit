@@ -3,11 +3,12 @@
 /* consts block */
 
 // TARGET SIZE DATA
-const targetSizeMin = 10;
-const targetSizeMax = 100;
-const targetSizeStep = 10;
-const defaultTargetSize = 20;
+import foundryAccessibilityToolkitToken from "./targeting";
 
+const targetSizeMin = 1;
+const targetSizeMax = 20;
+const targetSizeStep = 1;
+const defaultTargetSize = 20;
 
 //todo: there's a lot of cleanup for legibility that can and should be done here. I should take another pass as I add
 //more settings to figure out a more scaleable solution here.
@@ -34,6 +35,7 @@ class FoundryAccessibilityToolkitData {
                 console.log(value)
             }
         });
+        libWrapper.register(moduleSlug, "Token._refreshTarget", foundryAccessibilityToolkitToken._refreshTarget, "OVERRIDE")
     }
 }
 

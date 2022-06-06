@@ -13,6 +13,7 @@
     "scripts/globalConstants.js",
     "scripts/localizableStrings.js",
     "scripts/settings.js",
+    "scripts/targeting.js",
     "scripts/lib/libwrapper/shim.js"
   ],
   "languages": [
