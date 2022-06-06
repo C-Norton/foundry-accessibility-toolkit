@@ -12,7 +12,8 @@
   "scripts": [
     "scripts/globalConstants.js",
     "scripts/localizableStrings.js",
-    "scripts/settings.js"
+    "scripts/settings.js",
+    "scripts/lib/libwrapper/shim.js"
   ],
   "languages": [
     {
