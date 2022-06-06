@@ -29,7 +29,7 @@ ___
 - [x] Seperate out localizable strings, ensure an easily localizable project structure
 - [ ] (in progress) Familiarize self with foundry.js and most hooks. Considering the focus of this module, an emphasis on the rendering and handlebars workflows is prudent.
 - [ ] (in progress) Identify hooks related to the rendering of token decorations
-- [ ] Determine a methodology for properly unit testing in this environment
+- [x] Determine a methodology for properly unit testing in this environment
 - [ ] Write code that allows for mathematical manipulation of targeting dot size and position prior to rendering.
 - [ ] Write helper code for scaling up generic foundry UI element and reinjecting it back into the canvas
 - [ ] Work to understand Handlebars
