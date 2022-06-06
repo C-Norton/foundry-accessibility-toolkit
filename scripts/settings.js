@@ -1,3 +1,5 @@
+//TODO: as a reminder of things found tonight, 38233 is the line of code in foundryjs used to draw the target pipsD
+
 /* consts block */
 
 // TARGET SIZE DATA
