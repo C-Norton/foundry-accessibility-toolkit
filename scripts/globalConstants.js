@@ -1,1 +1,1 @@
-foundryAccessibilityToolsversion = "0.0.1";
+const foundryAccessibilityToolsversion = "0.0.1";

@@ -4,6 +4,7 @@
 
 // TARGET SIZE DATA
 import foundryAccessibilityToolkitToken from "./targeting";
+import {libWrapper} from "./lib/libwrapper/shim";
 
 const targetSizeMin = 1;
 const targetSizeMax = 20;
@@ -19,6 +20,7 @@ class FoundryAccessibilityToolkitData {
 
     static initialize() {
         this.FoundryAccessibilityToolkitData = new FoundryAccessibilityToolkitData();
+        console.log("Foundry Accessibility toolkit is attempting to register settings");
         game.settings.register(moduleSlug, targetSizeSlug, {
             name: targetSizeName,
             hint: targetSizeHint,
@@ -35,7 +37,9 @@ class FoundryAccessibilityToolkitData {
                 console.log(value)
             }
         });
-        libWrapper.register(moduleSlug, "Token._refreshTarget", foundryAccessibilityToolkitToken._refreshTarget, "OVERRIDE")
+        console.log("Foundry accessibility toolkit is done registering settings");
+        //libWrapper.register(moduleSlug, "Token._refreshTarget", foundryAccessibilityToolkitToken._refreshTarget, "OVERRIDE");
+        console.log("Foundry accessibility toolkit has registered with libwrapper");
     }
 }
 

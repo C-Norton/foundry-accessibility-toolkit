@@ -7,12 +7,9 @@
   "type": "module",
   "minimumCoreVersion": "9",
   "esmodules": [
-    "scripts/settings.js"
-  ],
-  "scripts": [
+    "scripts/settings.js",
     "scripts/globalConstants.js",
     "scripts/localizableStrings.js",
-    "scripts/settings.js",
     "scripts/targeting.js",
     "scripts/lib/libwrapper/shim.js"
   ],
