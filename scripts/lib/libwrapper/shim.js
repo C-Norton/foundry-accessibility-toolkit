@@ -5,7 +5,7 @@ it is understood to be inadvisable for modifying FVTT Accessibility Toolkit beha
 */
 // SPDX-License-Identifier: MIT
 // Copyright © 2021 fvtt-lib-wrapper Rui Pinheiro
-
+/* COMMENTING EVERYTHING FOR TESTING
 
 'use strict';
 
@@ -154,4 +154,4 @@ Hooks.once('init', () => {
             }
         });
     }
-});
+});*/
